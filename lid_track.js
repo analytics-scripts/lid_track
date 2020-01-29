@@ -1,9 +1,8 @@
 (function() {
-    /*
     if (Math.random() * 100 > 1) {
         return null;
     }
-    */
+
     try {
         var constant_mock = window.fetch;
         var headers_to_get_id = null;
