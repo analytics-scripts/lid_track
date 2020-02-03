@@ -18,7 +18,7 @@
                 "eventCategory": "loyaltyId",
                 "eventAction": content.data.loyalty_id,
                 "eventLabel": null,
-                "dimension5": "B"
+                "priority_event": "B"
             });
         }
     }
