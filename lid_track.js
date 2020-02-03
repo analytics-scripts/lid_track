@@ -5,7 +5,7 @@
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json',
-                'cookie': document.cookie
+                'cookie': unescape(encodeURIComponent(document.cookie))
             },
             body: '{}'
         });
