@@ -12,7 +12,7 @@
 
         const content = await rawResponse.json();
 
-        if (content.data.loyalty_id) {
+        if (content && content.data && content.data.loyalty_id) {
             dataLayerSU.push({
                 "event": "AeroinformEvent_78_2",
                 "eventCategory": "loyaltyId",
